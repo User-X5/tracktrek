@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trackstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <title>TrackTrek Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h3>AI Engineer Roadmap</h3>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        First Mission<small>Concept 1</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>Introduction</h4>
+                        <p>- What is on AI Engineer ?
+                            <br>- AI Engineer vs ML Engineer
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Second Mission<small>Concept 1</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>Pre-trained Models</h4>
+                        <p>- Benefits of Pre-trained Models
+                            <br>- Limitations and Considerations
+                            <br>- Open AI Models
+                            <br>- Capabillities / Context Length
+                            <br>- Cut-off Dates / Knowledge
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Second Mission<small>Concept 2</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>OpenAI API</h4>
+                        <p>- Chat Completions API 
+                            <br>- Writing Prompts
+                            <br>- Maximum Tokens
+                            <br>- Token Counting
+                            <br>- Pricing Considerations
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Second Mission<small>Concept 3</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>AI Safety and Ethics</h4>
+                        <p>- Prompt Injection Attacks
+                            <br>- Security and Privacy Concerns
+                            <br>- Bios and Fareness
+                            <br>- Understanding AI Safety Issues
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Third Mission<small>Concept 1</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>OpenSource AI</h4>
+                        <p>- Open vs Closed Source Models
+                            <br>- Popular Open Source Models
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Third Mission<small>Concept 2</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>What are Embeddings</h4>
+                        <p>- Semantic Search
+                            <br>- Data Classification
+                            <br>- Recommendation Systems
+                            <br>- Anomaly Detection
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Fourth Mission<small>Concept 1</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>Open AI Embeddings API</h4>
+                        <p>- Open AI Embedding Models
+                            <br>- Pricing Considerations
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Fourth Mission<small>Concept 2</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+
+                        <h4>RAG & Implementation</h4>
+                        <p>- Chunking
+                            <br>- Embedding
+                            <br>- Vector Database
+                            <br>- Retrieval Process
+                            <br>- Generation
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-row">
+                    <div class="timeline-time animate-on-scrollx">
+                        Fifth Mission<small>Concept End</small>
+                    </div>
+                    <div class="timeline-content animate-on-scroll">
+                        <h4>Keep Learning...</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="back">
+        <a href="../tracks.html">Back</a>
+        <button class="mode" style="cursor: pointer;">
+            <i class="bx bxs-moon"></i>
+        </button>
+    </div>
+    <script>
+        const body = document.querySelector("body");
+        const bttn = document.querySelector(".mode");
+        bttn.onclick = function () {
+            body.classList.toggle("dark");
+            bttn.firstElementChild.classList.toggle('bxs-sun');
+        };
+
+    </script>
+
+
+    <script src="animationOnscroll.js"></script>
+</body>
+
+</html>
